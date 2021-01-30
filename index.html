@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/index.css">
+    <script src="JS/index.js"></script>
+    <title>Arithematic Operator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Arithematic Operation Performer</h3>
+        <label for="operator">Choose a Operator: </label>
+        <select name="operator" id="operator">
+            <option value="add">Addition (+)</option>
+            <option value="sub">Subtraction (-)</option>
+            <option value="mul">Multiplication (*)</option>
+            <option value="div">Division (/)</option>
+        </select>
+        <br>
+        <div class="form">
+            <label>Enter First Number: </label>
+            <input type="text" id="num1">
+            <br>
+            <br>
+            <label>Enter Second Number: </label>
+            <input type="text" id="num2">
+            <br>
+            <br>
+            <label>Answer: </label>
+            <input type="text" id="res">
+        </div>
+        <br>
+        <button onclick="result()">Check Answer</button>
+    </div>
+</body>
+
+</html>
